@@ -1,2 +1,37 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<!--
+  this remming emoved old development code
+	<h1>StaticPages#home</h1>
+	<p>Find me in app/views/static_pages/home.html.erb</p>
+
+	<h1>Sample App</h1>
+	<p>
+	  This is the home page for the
+	  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+	  sample application.
+</p>
+-->
+<% provide(:title, 'Home') %>
+
+<!-- removed more old development code 
+nb remming out doesn't suppress script/code 
+nb rem out stray tags at end.
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ruby on Rails Tutorial Sample App | <%= yield(:title) %></title>
+  </head>
+  <body>
+nb no need for body tags.. application template inserts THIS page into body tags
+ -->
+
+<h1>Sample App</h1>
+<p>
+  This is the home page for the
+  <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
+  sample application.
+</p>
+  
+<!--
+  </body>
+</html>
+-->
